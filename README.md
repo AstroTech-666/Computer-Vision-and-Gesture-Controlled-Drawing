@@ -77,4 +77,3 @@ With the help of **MediaPipe**, **Air Draw** enables precise, marker-free intera
 📢 **Regular updates & insights** shared on the blog.  
 
 💡 **Air Draw redefines digital artistry—just move your hands, and let creativity flow!** 🖌️  
-```
