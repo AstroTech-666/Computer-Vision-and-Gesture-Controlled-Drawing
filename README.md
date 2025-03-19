@@ -1,44 +1,56 @@
-# Air Draw
-This example is sped up just to show functionality, real-time examples shown below:
-## Demo of Functionality
-![Demo of all functionality: Draw, Hover, Erase, and Translate](./demo_gifs/demo.gif)
+🖌️ Air Draw - Gesture-Based Drawing Application
 
+![Demo](draw.gif)
 
-## Setup
-<b>NOTE</b> This setup is just for what I use (Ubuntu 20.04). While I am willing to bet this will work for windows and unix, just be safe!
-### Virtual environment
-`python3 -m venv venv`
-### Install Dependencies
-`source ./venv/bin/activate`
+✨ Overview
 
-`pip3 install -r requirements.txt`
-### Run program
-`python3 airdraw.py`
+Air Draw is an innovative vision-based drawing application that lets you create digital art using just your hand gestures—no mouse or stylus needed! Leveraging the power of AI-driven hand tracking, Air Draw transforms the way you interact with your screen.
 
-## Available Gestures
+🔹 Type: 🎨 Vision-based drawing application
 
-### Drawing
-![Draw: drawing directly on screen](./demo_gifs/drawing.gif)
+🔹 License: 📜 MPL-2.0
 
-### Hovering
-![Hover: Move across the screen passively](./demo_gifs/hovering.gif)
+🔹 Languages Used: 🐍 Python (100%)
 
-### Erasing
-![Erase: Remove all drawings within radius](./demo_gifs/erasing.gif)
+🚀 Features
 
-### Translation
-![Translation: Move shapes around the screen](./demo_gifs/translating.gif)
+✅ 🎨 Gesture-Based Drawing – Sketch with simple hand movements.✅ 🖱️ Hovering – Move the cursor passively without leaving a mark.✅ 🧹 Erasing – Clear selected areas with a smooth erase function.✅ 📦 Shape Translation – Drag and relocate drawn elements effortlessly.
 
-## Why?
-I've seen tons of attempts of this sort of thing with HSV masks and dying your fingers a certain color, and while it's more true to image processing that openCV caters for, I was sort of against letting our own styluses [go to waste](https://money.cnn.com/2015/09/10/technology/apple-pencil-steve-jobs-stylus/index.html).
-Once I found out about [mediapipe](https://google.github.io/mediapipe/), I decided I would give this thing a shot! What you see is my attempt at materializing the idea, there is a more detailed [writeup](https://arefmalek.github.io/blog/Airdraw/) on my blog. 
+🛠️ Technology Stack
 
-## How?
-Like I mentioned before, the ML workhorse here is definitely mediapipe. They've got awesome ML solutions so we can quickly gather data on the hand and use what we gather rather quickly. Other than that I pretty reliantly used OpenCV for image manipulation and NumPy for some basic dot products and because OpenCV uses numpy to represent images.
+🖐️ Machine Learning: 🤖 MediaPipe (for hand tracking & gesture recognition)
 
-The conversion from hand data to lines / functionality is primarily done with some Python, basic linear algebra, and OpenCV. I'll leave the rest in the blog post. 
+🎥 Computer Vision: 📷 OpenCV (for real-time image processing)
 
-## What's next?
-Definitely want to make this more available to everyone, so an upcoming goal will be to write this as a webapp, hopefully within the next month or so, I'll keep everyone posted :). 
+🔢 Mathematical Computation: 🧮 NumPy (for efficient calculations)
 
-Thanks for reading :)
+🏗️ Setup Instructions
+
+Get started with Air Draw in a few simple steps!
+
+1️⃣ Create a Virtual Environment:
+
+python -m venv venv
+
+2️⃣ Activate the Environment:
+
+source ./venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate  # On Windows
+
+3️⃣ Install Dependencies:
+
+pip install -r requirements.txt
+
+4️⃣ Run the Program:
+
+python gesture_drawing.py
+
+🎯 Why Air Draw?
+
+🎨 Traditional computer vision techniques, like color-based tracking, had many limitations. With the help of MediaPipe, Air Draw enables precise, marker-free interaction for a seamless drawing experience.
+
+🔮 Future Plans
+
+🚀 Expanding to a web-based version for even greater accessibility.📢 Regular updates & insights shared on the blog.
+
+💡 Air Draw redefines digital artistry—just move your hands, and let creativity flow! 🖌️
