@@ -1,5 +1,7 @@
 # 🖌️ Air Draw - Gesture-Based Drawing Application
 
+![Gesture Drawing in Action](draw.gif)
+
 ## ✨ Overview
 
 **Air Draw** is an innovative vision-based drawing application that lets you create digital art using just your hand gestures—no mouse or stylus needed!  
