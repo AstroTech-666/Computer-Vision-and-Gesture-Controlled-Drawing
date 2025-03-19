@@ -1,4 +1,3 @@
-```markdown
 # 🖌️ Air Draw - Gesture-Based Drawing Application
 
 ## ✨ Overview
@@ -79,5 +78,3 @@ With the help of **MediaPipe**, **Air Draw** enables precise, marker-free intera
 
 💡 **Air Draw redefines digital artistry—just move your hands, and let creativity flow!** 🖌️  
 ```
-
----
