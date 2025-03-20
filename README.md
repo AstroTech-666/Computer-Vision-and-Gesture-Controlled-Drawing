@@ -1,6 +1,8 @@
 # 🖌️ Air Draw - Gesture-Based Drawing Application
 
-![Gesture Drawing in Action](draw.gif)
+<p align="center">
+  <img src="draw.gif" alt="Gesture Drawing in Action" width="70%">
+</p>
 
 ## ✨ Overview
 
